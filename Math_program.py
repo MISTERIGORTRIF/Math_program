@@ -33,14 +33,7 @@ def pravka(s):
     return s.replace('.','',1).isdigit()
 
 def priloga():
-  global ploshad
-  global perimetr
-  global R
-  global r
-  global angle1
-  global angle2
-  global angle3
-  global k
+  global ploshad, perimetr, R, r, angle1, angle2, angle3, k
   arr = []
   a1 = a_entry.get()
   a2 = b_entry.get()
